@@ -22,7 +22,7 @@ name: Node.js CI
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
+    needs: build
 jobs:
   build:
 
